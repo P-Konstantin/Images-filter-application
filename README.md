@@ -17,8 +17,8 @@ Web-application for working with images
 
 ## About the project
 * The project was made with Python 3.9.7 and framework Flask.
-* The main file with views is images_filter_app.py
-* The file with basic program functions is app_functions.py
+* The main file with views is images_filter_app.py.
+* The file with basic program functions is app_functions.py.
 * OpenCV and NumPy libraries were used to convert images.
 * OS module was used for working with directories. 
 * The frontend part of application was made with Bootstrap 3.
