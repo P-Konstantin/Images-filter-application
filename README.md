@@ -11,7 +11,7 @@ Web-application for working with images
 
 ![App screenshot2](https://github.com/P-Konstantin/Images-filter-application/blob/master/readme_assets/screenshot2.png)
 
-* If you upload not an image file you receive a message.
+* If you upload not an image file you receive the message.
 
 ![App screenshot3](https://github.com/P-Konstantin/Images-filter-application/blob/master/readme_assets/screenshot3.png)
 
