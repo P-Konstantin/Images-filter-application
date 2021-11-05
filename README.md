@@ -21,6 +21,7 @@ Web-application for working with images
 * The file with basic program functions is app_functions.py
 * OpenCV and NumPy libraries were used to convert images.
 * OS module was used for working with directories. 
+* The frontend part of application was made with Bootstrap 3.
 
 You can see the program work by clicking on the link below.
 
