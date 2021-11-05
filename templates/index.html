@@ -1,0 +1,27 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+Фильтр изображений
+{% endblock %}
+
+{% block content %}
+<nav class="navbar" style="background-color: #4B0082">
+    <font color="white"><h2 align="center">Фильтр изображений</h2></font>
+    <font color="white"><h3 align="center">Приложение переводит изображение в контурный рисунок</h3></font>
+</nav>
+<div class="container">
+<img src="/static/images/image.jpg" class="img-thumbnail pull-left" alt="image" width="384" height="480">
+<img src="/static/images/arrow.png" alt="arrow">
+<img src="/static/images/image-sketch.png" class="img-thumbnail pull-right" alt="image-sketch" width="384" height="480">
+</div>
+<br>
+<div class="container">
+    <form method="post" action="/downloading" enctype="multipart/form-data">
+        <div class="form-group">
+            <input type="file" class="form-control-file border" name="file">
+        </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="background-color: #4B0082">Преобразовать изображение</button>
+    </form>
+</div>
+<br>
+{% endblock %}

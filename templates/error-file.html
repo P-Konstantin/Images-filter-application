@@ -1,0 +1,14 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+Ошибка распознования речи
+{% endblock %}
+
+{% block content %}
+<nav class="navbar" style="background-color: #4B0082">
+    <font color="white"><h2>Упс! Ошибочка</h2></font>
+    <font color="white"><h3>Вы загрузили файл не в формате изображения</h3></font>
+    <font color="white"><h3>Чтобы приложение заработало загрузите файл в  формате изображения</h3></font>
+</nav>
+<img src="/static/images/smile.jpeg" class="center-block" alt="Smile">
+{% endblock %}
